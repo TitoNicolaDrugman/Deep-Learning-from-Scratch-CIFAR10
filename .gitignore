@@ -1,0 +1,42 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyd
+*.so
+build/
+dist/
+*.egg-info/
+/assignment2/cs231n/build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets - These are large and should be downloaded by the user
+/assignment2/cs231n/datasets/
+*.zip
+*.tar
+*.tar.gz
+*.h5
+
+# Saved Models - These are generated during training
+/assignment2/saved_models/
+/assignment2/saved_models_tflite/
+*.onnx
+*.onnx.data
+*.pth
+*.tflite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor configurations
+.idea/
+.vscode/
+
+# Root-level PDF reports and temporary files
+# It's good practice to not include the final compiled report in the repo
+# The template is fine, but the output PDFs from your work should be ignored.
+/BatchNormalization.pdf
+/DropOut.pdf
+/homework1-v2.pdf
